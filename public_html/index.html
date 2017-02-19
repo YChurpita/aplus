@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>A+ Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Play|Rubik" rel="stylesheet"> 
+      
+	    <link rel="stylesheet" href="css/aplus.css"  media="screen"> 
+        <script type="text/javascript" src="js/jquery-2.0.0.js"></script>
+        <script type="text/javascript"  src="js/aplus.js"></script>     
+ 
+    </head>
+    <body>
+        <header class="aplus-header">               
+               <img class="aplus-header-logo" src="img/A_Logo.png" alt="logo"> 
+                 <div class="phone-menubl">
+                        <img id="phone-menubl-1" src="img/menu.png" alt="img">
+                        <img id="phone-menubl-2" src="img/phone.png" alt="img">
+                    </div>
+                <div class="aplus-nav">               
+                    <nav>
+                        <a>О нас</a><a>О нас</a><a>О нас</a><a>О нас</a><a>О нас</a>
+                    </nav>
+                </div>   
+               
+                <div id="aplus-phone-bl-h" class="aplus-phone-bl">
+                    <a>+38 073 376 65 23</a>
+                    <input type="button" title="Перезвоните мне" value="Перезвоните мне">
+                </div>
+               <div class="aplus-slogan-bl">
+                  <h1><span>Продвижение</span><br>в социальных сетях</h1>
+                  <input type="button" title="Узнать подробнее" value="Узнать подробнее">
+               </div>   
+        </header>
+         <div class="aplus-page">
+         <section class="aplus-smm-sect">
+           <!-- SMM -->  
+           <div class="aplus-smm-bl">
+               <h3>Преимущества SMM</h3>
+               <ul>
+                   <li><img src="img/smm_1.png"><p>Широкий охват аудитории</p><span>Социальные сети каждый день посещают<br>миллионы пользователей которые<br>готовы совершать покупки</span></li>
+                   <li><img src="img/smm_2.png"><p>Отбор аудитории</p><span>Новейшие инструменты и технологии<br> позволяют точно вычислить<br> потенциальных клеиентов для любого бизнеса</span></li>
+                   <li><img src="img/smm_3.png"><p>Низкая стоимость</p><span>Наиболее дешевый канал привлечения<br> трафика из всех что используются для рекламы в интернете</span></li>
+                   <li><img src="img/smm_4.png"><p>Управление репутацией</p><span>Социальные сети это один из самых<br> важных каналов для взаимодействия с <br>аудиторией через который можно<br> строить репутацию бренда</span></li>
+               </ul>      
+           </div>    
+           <!-- Слайдер дональд -->  
+            <div class="aplus-smm-donald-sl">
+               <h3 class="aplus-smm-sl-title">Сила социальных сетей</h3>
+               <p class="aplus-smm-donald-sl-comment">Дональд Трамп потратил на онлайн+маркетинг 14.2 миллионов долларов из которых большую часть на социальные <br> сети, что позволило ему вырваться далеко вперед от Хиллари Клинтон и стать 45-м президентом США </p>
+               <div class="aplus-smm-donald-sl-view" >
+                   <div class="aplus-nav-btn  aplus-smm-left-btn" onclick="trampSlider.onClickLR('left')"></div>
+                   <div class="aplus-nav-btn  aplus-smm-right-btn" onclick="trampSlider.onClickLR('right')"></div>
+                   <div class="aplus-smm-donald-ley-left"></div>
+                   <div class="aplus-smm-donald-ley-right"></div>
+                   <div class="aplus-smm-donald-sl-line" id="aplus-smm-donald-line-1">
+                       <img id="aplus-smm-donald-1" class="aplus-smm-donald-slide" src="img/tramp.png" alt="tramp">
+                       <img id="aplus-smm-donald-2"  class="aplus-smm-donald-slide" src="img/tramp.png" alt="tramp">
+                       <img id="aplus-smm-donald-3"  class="aplus-smm-donald-slide" src="img/tramp.png" alt="tramp">
+                   </div>    
+               </div>    
+            </div> 
+           <!-- Блок слайдеров кейсы -->
+             <div class="aplus-smm-case-sl">
+                <h3 class="aplus-smm-sl-title">Наши кейсы</h3>
+                <!-- Блок 1-->
+                 <div class="aplus-smm-case-sl-view" >
+                   <div class="aplus-nav-btn  aplus-smm-left-btn"  onclick="case1Slider.onClickLR('left')"></div>
+                   <div class="aplus-nav-btn  aplus-smm-right-btn" onclick="case1Slider.onClickLR('right')"></div>
+                   <div class="aplus-smm-donald-ley-left"></div>
+                   <div class="aplus-smm-donald-ley-right"></div>
+                   
+                   <div class="aplus-case-sl-line" id="aplus-case-sl-line-1">
+                       
+                       <div class="aplus-case-slide">
+                           <img class="aplus-case-smm-logo" src="img/icon.png" alt="logo vk">
+                           <ul>
+                               <li id="li-title">01</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Ragel</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">Лиды</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">122 заявки за месяц</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-futb" src="img/futbol.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <img class="aplus-case-smm-logo" src="img/vk.png" alt="logo vk">
+                           <ul>
+                               <li id="li-title">01</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Ragel</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">Лиды</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">122 заявки за месяц</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-futb" src="img/futbol.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <img class="aplus-case-smm-logo" src="img/icon.png" alt="logo vk">
+                           <ul>
+                               <li id="li-title">01</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Ragel</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">Лиды</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">122 заявки за месяц</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-futb" src="img/futbol.png" alt="tovar">
+                       </div>
+                       
+                   </div>       
+                </div>
+                <!-- конец блок 1  -->
+                
+                <!-- Блок 2-->
+                 <div class="aplus-smm-case-sl-view" >
+                   <div class="aplus-nav-btn  aplus-smm-left-btn" onclick="case2Slider.onClickLR('left')"></div>
+                   <div class="aplus-nav-btn  aplus-smm-right-btn" onclick="case2Slider.onClickLR('right')"></div>
+                   <div class="aplus-smm-donald-ley-left"></div>
+                   <div class="aplus-smm-donald-ley-right"></div>
+                   <div class="aplus-case-sl-line"   id="aplus-case-sl-line-2">
+                       <div class="aplus-case-slide">
+                           <img class="aplus-case-smm-logo" src="img/icon.png" alt="logo vk">
+                           <ul>
+                               <li id="li-title">02</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Nike</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">Facebook</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">1370 кликов по цене 2,8</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">2510 кликов по цене 0,78</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod  prod-kros" src="img/cros.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <img class="aplus-case-smm-logo" src="img/fb.png" alt="logo vk">
+                           <ul>
+                               <li id="li-title">02</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Nike</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">Facebook</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">1370 кликов по цене 2,8</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">2510 кликов по цене 0,78</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-kros" src="img/cros.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <img class="aplus-case-smm-logo" src="img/icon.png" alt="logo vk">
+                           <ul>
+                               <li id="li-title">02</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Nike</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">Facebook</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">1370 кликов по цене 2,8</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">2510 кликов по цене 0,78</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-kros" src="img/cros.png" alt="tovar">
+                       </div>
+                       
+                   </div>       
+                </div>
+                <!-- конец блок 2  -->
+                
+               <!-- Блок 3-->
+                 <div class="aplus-smm-case-sl-view" >
+                   <div class="aplus-nav-btn  aplus-smm-left-btn" onclick="case3Slider.onClickLR('left')"></div>
+                   <div class="aplus-nav-btn  aplus-smm-right-btn" onclick="case3Slider.onClickLR('right')"></div>
+                    <div class="aplus-smm-donald-ley-left"></div>
+                   <div class="aplus-smm-donald-ley-right"></div>
+                   <div class="aplus-case-sl-line"  id="aplus-case-sl-line-3">
+                       <div class="aplus-case-slide">
+                           <div class="aplus-case-smm-logo-bl" > 
+                             <img class="aplus-case-smm-logo-bli" src="img/vk.png" alt="logo vk">
+                             <img class="aplus-case-smm-logo-bli" src="img/fb.png" alt="logo fb">
+                             <img class="aplus-case-smm-logo-bli" src="img/icon.png" alt="logo ig">
+                           </div>  
+                           <ul>
+                               <li id="li-title">03</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Novus</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK, Facebook, Instagram</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">800 подписчиков по всем площадкам</span></li>
+                               <li><span class="li-title-span">Результат:</span><span  class="li-title-span-2">810 подписчиков по всем площадкам</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod  prod-banan" src="img/banan.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <div class="aplus-case-smm-logo-bl" > 
+                             <img class="aplus-case-smm-logo-bli" src="img/vk.png" alt="logo vk">
+                             <img class="aplus-case-smm-logo-bli" src="img/fb.png" alt="logo fb">
+                             <img class="aplus-case-smm-logo-bli" src="img/icon.png" alt="logo ig">
+                           </div>  
+                           <ul>
+                               <li id="li-title">03</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Novus</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK, Facebook, Instagram</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">800 подписчиков по всем площадкам</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">810 подписчиков по всем площадкам</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-banan" src="img/banan.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <div class="aplus-case-smm-logo-bl" > 
+                             <img class="aplus-case-smm-logo-bli" src="img/vk.png" alt="logo vk">
+                             <img class="aplus-case-smm-logo-bli" src="img/fb.png" alt="logo fb">
+                             <img class="aplus-case-smm-logo-bli" src="img/icon.png" alt="logo ig">
+                           </div>  
+                           <ul>
+                               <li id="li-title">03</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Novus</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK, Facebook, Instagram</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">800 подписчиков по всем площадкам</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">810 подписчиков по всем площадкам</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-banan" src="img/banan.png" alt="tovar">
+                       </div>
+                       
+                   </div>       
+                </div>
+                <!-- конец блок 3  -->
+                <!-- Блок 4-->
+                 <div class="aplus-smm-case-sl-view" >
+                   <div class="aplus-nav-btn  aplus-smm-left-btn" onclick="case4Slider.onClickLR('left')"></div>
+                   <div class="aplus-nav-btn  aplus-smm-right-btn" onclick="case4Slider.onClickLR('right')"></div>
+                   <div class="aplus-smm-donald-ley-left"></div>
+                   <div class="aplus-smm-donald-ley-right"></div>
+                   <div class="aplus-case-sl-line"  id="aplus-case-sl-line-4">
+                       <div class="aplus-case-slide">
+                           <div class="aplus-case-smm-logo-bl"> 
+                             <img class="aplus-case-smm-logo-bli" src="img/vk.png" alt="logo vk">
+                             <img class="aplus-case-smm-logo-bli" src="img/fb.png" alt="logo fb">
+                             <img class="aplus-case-smm-logo-bli" src="img/icon.png" alt="logo ig">
+                           </div>  
+                           <ul>
+                               <li id="li-title">04</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Artmal</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK, Facebook, Instagram</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">500 подписчиков по всем площадкам</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">530 подписчиков по всем площадкам</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-pak" src="img/paket.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <div class="aplus-case-smm-logo-bl" > 
+                             <img class="aplus-case-smm-logo-bli" src="img/vk.png" alt="logo vk">
+                             <img class="aplus-case-smm-logo-bli" src="img/fb.png" alt="logo fb">
+                             <img class="aplus-case-smm-logo-bli" src="img/icon.png" alt="logo ig">
+                           </div>  
+                           <ul>
+                               <li id="li-title">04</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Artmal</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK, Facebook, Instagram</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">500 подписчиков по всем площадкам</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">530 подписчиков по всем площадкам</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-pak" src="img/paket.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-case-slide">
+                           <div class="aplus-case-smm-logo-bl" > 
+                             <img class="aplus-case-smm-logo-bli" src="img/vk.png" alt="logo vk">
+                             <img class="aplus-case-smm-logo-bli" src="img/fb.png" alt="logo fb">
+                             <img class="aplus-case-smm-logo-bli" src="img/icon.png" alt="logo ig">
+                           </div>  
+                           <ul>
+                               <li id="li-title">04</li>
+                               <li><span class="li-title-span">Компания:</span><span class="li-title-span-2">Artmal</span></li>
+                               <li><span class="li-title-span">Площадки:</span><span class="li-title-span-2">VK, Facebook, Instagram</span></li>
+                               <li><span class="li-title-span">Цель:</span><span class="li-title-span-2">500 подписчиков по всем площадкам</span></li>
+                               <li><span class="li-title-span">Результат:</span><span class="li-title-span-2">530 подписчиков по всем площадкам</span></li>
+                           </ul>   
+                           <input  class="aplus-case-slide-btn" type="button" title="Хочу так же" value="Хочу так же">
+                           <img class="aplus-case-smm-prod prod-pak" src="img/paket.png" alt="tovar">
+                       </div>
+                       
+                   </div>       
+                </div>
+                <!-- конец блок 4  -->
+                      
+           </div>  <!-- конец слайдера кейсы  -->  
+        </section>
+        <section class="aplus-make-popular-sect">
+            <div class="aplus-make-popular">
+                <h3>Как мы делаем вас популярными</h3>
+                <ul>
+                    <li><img src="img/01.png" alt="step"> <div></div> <span>Общаемся, заполняем бриф, узнаем больше о вашем бизнесе</span> </li>
+                    <li><img src="img/02.png" alt="step"> <div></div> <span>Анализируем рынок, конкурентов и целевую аудиторию и составлем подробный отчет</span></li>
+                    <li><img src="img/03.png" alt="step"> <div></div> <span>Разрабатываем SMM-стратегию для продвижания</span></li>
+                    <li><img src="img/04.png" alt="step"> <div></div> <span>Создаем контенет-план с учетом всех особенностей рынка и целевой аудитории </span></li>
+                    <li><img src="img/05.png" alt="step"> <div></div> <span>Оформляем страницу и начинаем продвижение</span></li>
+                    <li><img src="img/06.png" alt="step"> <div></div> <span>Проводим анализ и составляем подробный отчет</span></li>                    
+                </ul>   
+                 <input  class="aplus-make-popular-btn" type="button" title="Начать продвижение" value="Начать продвижение">
+            </div>     
+         
+         </section>   
+        <!-- -->
+         <section class="aplus-price-subscriber-sect">
+              <div class="aplus-price-subscriber">
+                  <h3>Цена подписчика</h3>
+                  <iframe  src="https://www.youtube.com/embed/PUrAa-Slmz4" frameborder="0" allowfullscreen></iframe>
+                   <input  class="aplus-price-subscriber-btn" type="button" title="Получить бесплатную консультацию" value="Получить бесплатную консультацию">
+              </div>    
+         </section> 
+        <section class="aplus-work-project-sect">
+            <div class="aplus-work-project-fon"></div>
+            <div class="aplus-work-project">
+                 <h3>Кто работает над вашим проектом</h3>
+                 <ul>
+                   <li><img src="img/icn1.png" alt="icon"> <p>Маркетолог</p></li>    
+                   <li><img src="img/icn2.png" alt="icon"> <p>Менеджер проекта</p></li>  
+                   <li><img src="img/icn3.png" alt="icon"> <p>SMM-специалист</p></li>  
+                   <li><img src="img/icn4.png" alt="icon"> <p>Копирайтер</p></li>  
+                   <li><img src="img/icn5.png" alt="icon"> <p>Таргетолог</p></li>  
+                   <li><img src="img/icn6.png" alt="icon"> <p>SERM-специалист</p></li>  
+                   <li><img src="img/icn7.png" alt="icon"> <p>Аналитик</p></li>  
+                 </ul>
+                 <span>Почему так много людей работают над проектом? Только в тех случаях когда в команде есть узкоспециализированные специалисты <br> по каждому из направлений продвижения в социальных сетях можно достичь качественного результата</span>
+                       <input  class="aplus-work-project-btn" type="button" title="Получить бесплатную консультацию" value="Получить бесплатную консультацию">
+            </div>     
+        </section >
+        
+        
+        <section class="aplus-target-subscribers-sec">
+            <div class="aplus-target-subscribers">
+                <h3>Только целевые подписчики</h3>
+                <p>Наша основная особенность в том что мы не накручиваем ботов и не целевых подписчиков<br> 
+                   в акаунты наших клиентов, потому что 100% целевых, настоящих подписчиков приносят намного больше прибыли<br> 
+                   для вас чем 1000 ботов и незаинтересованных подписчиков.<br> 
+                   Мы моглибы сделать миллионы подписчиков в ваших аккаунтах, но принесет ли вам пользу<br> 
+                   такое количество ненужных аккаунтов?
+                </p>
+                 <input  class="aplus-target-subscribers-btn" type="button" title="Завлечь целевых подписчиков" value="Завлечь целевых подписчиков">
+            </div> 
+            <img class="aplus-target-subscribers-rbt" src="img/robot.png" alt="robot">
+        </section>
+        
+        <section class="aplus-info-people-sec">
+            <div class="aplus-work-project-fon"></div>
+            <div  class="aplus-info-people">
+                <h3>Сколько людей узнают о вашем бизнесе</h3>
+                <p>Рекламный бюджет</p>
+                <input id="aplus-info-1" type="range" min="0" max="100" value="0"  oninput="onRange1.PrintCal()"> 
+                <p id="aplus-info-2">О вас узнают 7589 человек</p>
+                <input  class="aplus-info-people-btn" type="button" title="Хочу, чтобы о нас узнали" value="Хочу, чтобы о нас узнали">
+            </div>
+            
+        </section>
+        
+         <section class="aplus-social-netw-sec">
+             <div class="aplus-social-netw">
+                 <h3>С какими соцсетями мы работаем</h3>
+                 <ul>
+                     <li><img src="img\vk2.png" alt="vk"><a id="aplus-social-1" href="https://www.vk.com">www.vk.com</a></li>
+                     <li><img src="img\icon.png" alt="ig"><a id="aplus-social-2"  href="https://www.instagram.com">www.instagram.com</a></li>
+                     <li><img src="img\fb2.png" alt="fb"><a id="aplus-social-3"  href="https://www.facebook.com">www.facebook.com</a></li>
+                     <li><img src="img\ok2.png" alt="ok"><a id="aplus-social-4"  href="https://www.odnoklassniki.ru">odnoklassniki.ru</a></li> 
+                     <li><img src="img\gg.png" alt="ok"><a  id="aplus-social-5"  href="https://www.odnoklassniki.ru">odnoklassniki.ru</a></li> 
+                     <li><img src="img\in2.png" alt="in"><a  id="aplus-social-6"  href="https://www.linkedin.com">linkedin.com</a></li> 
+                 </ul>    
+             </div>               
+         </section>
+         <section class="aplus-prices-sec">
+            <div  class="aplus-prices"> 
+               <h3>Тарифы</h3>
+             <div class="aplus-prices-btn-bl">
+                 <span class="aplus-prices-btn-l"><< Тестовый</span><span class="aplus-prices-btn-r">Полный >></span>
+             </div>
+              <div id="aplus-prices-bl-1" class="aplus-prices-bl">
+                 <div id="aplus-prices-title-bl-1" class="aplus-prices-title-bl">
+                     <h5>Тестовый</h5>
+                     <p>для пробного периода</p>                    
+                 </div>    
+                 <ul>
+                    <li><span class="aplus-prices-bl-sp">Создание и наполнение сообщества</span></li>
+                    <li><span class="aplus-prices-bl-sp">Анализ ЦА</span></li>
+                    <li><span class="aplus-prices-bl-sp">Контент план на 14 дней</span></li>
+                    <li><span class="aplus-prices-bl-sp">Настройка таргетированной рекламы</span></li>
+                    <li><span class="aplus-prices-bl-sp">Рекомендации</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    
+                 </ul>  
+                 <span>2500 грн</span>
+                 <input  class="aplus-prices-bl-btn" type="button" title="Заказать" value="Заказать">
+              </div>
+             <!-- -->
+              <div id="aplus-prices-bl-2" class="aplus-prices-bl">
+                 <div id="aplus-prices-title-bl-2"   class="aplus-prices-title-bl">
+                     <h5>Базовый</h5>
+                     <p>для развивающегося бизнеса</p>
+                     
+                 </div>    
+                 <ul>
+                    <li><span class="aplus-prices-bl-sp">Создание и наполнение сообщества</span></li>
+                    <li><span class="aplus-prices-bl-sp">Анализ ЦА</span></li>
+                    <li><span class="aplus-prices-bl-sp">Контент план на 30 дней</span></li>
+                    <li><span class="aplus-prices-bl-sp">Аудит 3 конкурентов</span></li>
+                    <li><span class="aplus-prices-bl-sp">Разработка контент стратегии</span></li>
+                    <li><span class="aplus-prices-bl-sp">Создание уникального графического дизайна</span></li>
+                    <li><span class="aplus-prices-bl-sp">Администрирование сообществ 12/5</span></li>
+                    <li><span class="aplus-prices-bl-sp">Отчет в конце периода</span></li>
+                    <li><span class="aplus-prices-bl-sp">Настройка таргетированной рекламы</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                    <li><span class="aplus-prices-bl-sp">-</span></li>
+                   
+                 </ul>  
+                 <span>4300 грн</span>
+                 <input  class="aplus-prices-bl-btn" type="button" title="Заказать" value="Заказать">
+              </div>
+                          <!-- -->
+              <div id="aplus-prices-bl-3" class="aplus-prices-bl">
+                 <div  id="aplus-prices-title-bl-3"   class="aplus-prices-title-bl">
+                     <h5>Полный</h5>
+                     <p>для активного бизнеса</p>
+                     
+                 </div>    
+                 <ul>
+                    <li><span class="aplus-prices-bl-sp">Создание и наполнение сообщества</span></li>
+                    <li><span class="aplus-prices-bl-sp">Анализ ЦА</span></li>
+                    <li><span class="aplus-prices-bl-sp">Контент план на 30 дней</span></li>
+                    <li><span class="aplus-prices-bl-sp">Аудит 5 конкурентов</span></li>
+                    <li><span class="aplus-prices-bl-sp">Разработка контент стратегии</span></li>
+                    <li><span class="aplus-prices-bl-sp">Создание уникального графического дизайна</span></li>
+                    <li><span class="aplus-prices-bl-sp">Администрирование сообществ 24/7</span></li>
+                    <li><span class="aplus-prices-bl-sp">Заказ рекламы у лидеров мнений</span></li>
+                    <li><span class="aplus-prices-bl-sp">Отслеживание репутации (SERM анализ)</span></li>
+                    <li><span class="aplus-prices-bl-sp">Персональный менеджер</span></li>
+                    <li><span class="aplus-prices-bl-sp">Отчет в конце периода</span></li>
+                    <li><span class="aplus-prices-bl-sp">Настройка таргетированной рекламы</span></li>
+                   
+                 </ul>  
+                 <span>8400 грн</span>
+                 <input  class="aplus-prices-bl-btn" type="button" title="Заказать" value="Заказать">
+              </div>
+               <div class="aplus-prices-bl-btn-wrp">           
+                   <p class="aplus-prices-bl-btn-txt">Также вы имеете возможность <a>заказать</a> индивидуальный просчет тарифа</p>
+                   <input  class="aplus-prices-bl-btn-1" type="button" title="Здесь" value="Здесь">
+               </div>
+            </div>            
+         </section>
+        <!-- -->
+         <section class="aplus-setting-advertising-sec">
+             <div class="aplus-setting-advertising">
+                 <h3>Настройка таргетированной рекламы</h3>
+                 <div class="aplus-setting-advertising-bl">
+                     <div class="aplus-setting-bl">
+                         <p>Настройка<br><span>таргетированной рекламы</span> <br><span id="aplus-setting-bl-sal">1500 грн</span></p>
+                       
+                     </div> 
+                       <input  class="aplus-setting-bl-btn" type="button" title="Заказать" value="Заказать">
+                     <img src="img/Macbook Air.png" alt="img">
+                 </div>   
+                 <div class="aplus-setting-advertising-bl">
+                     <div class="aplus-setting-bl">
+                         <p>Настройка<br><span>таргетированной рекламы</span> <br><span id="aplus-setting-bl-sal2">15%<span id="aplus-setting-bl-sal3">от бюджета</span></span></p>
+                        
+                     </div>   
+                      <input id="aplus-setting-bl-btn2"  class="aplus-setting-bl-btn" type="button" title="Заказать" value="Заказать">
+                     <img id="aplus-setting-img2" src="img/Macbook Air2.png" alt="img">
+                 </div>  
+             </div>    
+         </section>
+        
+        <section class="aplus-trust-us-sec">
+            <div class="aplus-trust-us">
+                <h3>Нам доверяют</h3>
+                <div class="aplus-trust-us-vide-bl">
+                    <iframe id="aplus-trust-us-sl"   src="https://www.youtube.com/embed/rT6u66L9EJ4" frameborder="0" allowfullscreen></iframe>
+                    <div class="aplus-trust-nav-bl"><span class="aplus-trust-nav-bl-l"><< пред</span><span class="aplus-trust-nav-r">след>></span></div>
+                    <ul>
+                        <li onclick="setVideo.onSet(1)"><img src="img/sa1.png" alt="img1"></li>
+                        <li onclick="setVideo.onSet(2)"><img src="img/sa2.png" alt="img2"></li>
+                        <li onclick="setVideo.onSet(3)"><img src="img/sa3.png" alt="img3"></li>
+                        <li onclick="setVideo.onSet(4)"><img src="img/sa4.png" alt="img4"></li>
+                    </ul>    
+                </div>    
+            </div>    
+           
+        </section>
+        
+         <section class="aplus-band-sec">
+            <div class="aplus-band-sl">
+                <h3 class="aplus-band-title">Наша команда</h3>
+                 <div class="aplus-band-title-sl-view" >
+                   <div class="aplus-nav-btn  aplus-smm-left-btn"  onclick="bandSlider.onClickLR('left')"></div>
+                   <div class="aplus-nav-btn  aplus-smm-right-btn" onclick="bandSlider.onClickLR('right')"></div>
+                   <div class="aplus-smm-donald-ley-left"></div>
+                   <div class="aplus-smm-donald-ley-right"></div>
+                   <div class="aplus-band-sl-line" id="aplus-band-sl-line-1">
+                       <div class="aplus-band-slide" id="aplus-band-1">                         
+                           <ul id="aplus-band-slide-1">
+                               <li id="li-title">01</li>
+                               <li><p>Владимир Генус</p></li>
+                               <li>Менеджер проектов.</li>
+                               <li>Сооснователь.</li>
+                           </ul>   
+                           <img class="aplus-band-prod1" src="img/m11.png" alt="tovar">
+                       </div>
+                       
+                       <div class="aplus-band-slide" id="aplus-band-2">                         
+                           <ul id="aplus-band-slide-2">
+                               <li id="li-title">02</li>
+                               <li><p>Владимир Генус</p></li>
+                               <li>Менеджер проектов.</li>
+                               <li>Сооснователь.</li>
+                           </ul>   
+                           <img class="aplus-band-prod2" src="img/m22.png" alt="tovar">
+                       </div>
+                       
+                     <div class="aplus-band-slide" id="aplus-band-3">                         
+                           <ul id="aplus-band-slide-3">
+                               <li id="li-title">03</li>
+                               <li><p>Владимир Генус</p></li>
+                               <li>Менеджер проектов.</li>
+                               <li>Сооснователь.</li>
+                           </ul>   
+                           <img class="aplus-band-prod" src="img/m33.png" alt="tovar">
+                       </div>   
+          
+                   </div>  
+                 <div id="aplus-trust-nav-bl-2" class="aplus-trust-nav-bl"><span class="aplus-trust-nav-bl-l"><< пред</span><span class="aplus-trust-nav-r">след>></span></div>
+                </div>
+            
+                <input  class="aplus-band-btn" type="button" title="Получить консультацию от специалиста" value="Получить консультацию от специалиста">
+                <!-- конец блок 1  -->
+            </div>  
+          
+         </section>
+        
+        <section  class="aplus-asked-questions-sec">
+            <div class="aplus-work-project-fon"></div>
+            <div class="aplus-asked-questions">
+                <h3>Часто задаваемые вопросы</h3>
+                <ul>
+                    
+                    
+                 <li><input class="aplus-asked-hide" id="hd-1" type="checkbox" ><label for="hd-1">Что такое SMM?</label>
+                 <div class="aplus-asked-d1">Качественное продвижение в социальных сетях это кропотливый и в тоже время рутинный труд множества узконаправленных специалистов,<br>
+                            потому что качественный результат это система из множества слаженно работающих составляющих и для  того чтобы добиться успеха<br>
+                            необходимы лучшие специалисты в каждом из звенний. Потому мы не экономим на оплате труда самых лучших специалистов чтобы все <br>
+                            наши клиенты были довольны.</div></li>
+ 
+                 <li><input class="aplus-asked-hide" id="hd-2" type="checkbox" ><label for="hd-2">SMM увеличивают продажи?</label>
+                 <div class="aplus-asked-d1">Качественное продвижение в социальных сетях это кропотливый и в тоже время рутинный труд множества узконаправленных специалистов,<br>
+                            потому что качественный результат это система из множества слаженно работающих составляющих и для  того чтобы добиться успеха<br>
+                            необходимы лучшие специалисты в каждом из звенний. Потому мы не экономим на оплате труда самых лучших специалистов чтобы все <br>
+                            наши клиенты были довольны.</div>  </li>    
+                    
+                 <li><input class="aplus-asked-hide" id="hd-3" type="checkbox" ><label for="hd-3">Какими инструментами вы будете привлекать людей в ваше сообщество?</label>
+                 <div class="aplus-asked-d1">Качественное продвижение в социальных сетях это кропотливый и в тоже время рутинный труд множества узконаправленных специалистов,<br>
+                            потому что качественный результат это система из множества слаженно работающих составляющих и для  того чтобы добиться успеха<br>
+                            необходимы лучшие специалисты в каждом из звенний. Потому мы не экономим на оплате труда самых лучших специалистов чтобы все <br>
+                            наши клиенты были довольны.</div></li>       
+              <li><input class="aplus-asked-hide" id="hd-4" type="checkbox" ><label for="hd-4">Из чего состоит цена на ваши услуги по SMM-продвижению?</label>
+                 <div class="aplus-asked-d1">Качественное продвижение в социальных сетях это кропотливый и в тоже время рутинный труд множества узконаправленных специалистов,<br>
+                            потому что качественный результат это система из множества слаженно работающих составляющих и для  того чтобы добиться успеха<br>
+                            необходимы лучшие специалисты в каждом из звенний. Потому мы не экономим на оплате труда самых лучших специалистов чтобы все <br>
+                            наши клиенты были довольны.</div>  </li>   
+              
+                 <li><input class="aplus-asked-hide" id="hd-5" type="checkbox" ><label for="hd-5">Зачем мне обращаться к вам сесли я и сам(а) могу продвигать сообщество?</label>
+                 <div class="aplus-asked-d1">Качественное продвижение в социальных сетях это кропотливый и в тоже время рутинный труд множества узконаправленных специалистов,<br>
+                            потому что качественный результат это система из множества слаженно работающих составляющих и для  того чтобы добиться успеха<br>
+                            необходимы лучшие специалисты в каждом из звенний. Потому мы не экономим на оплате труда самых лучших специалистов чтобы все <br>
+                            наши клиенты были довольны.</div>  </li>    
+                  
+ 
+                </ul>
+            </div>    
+            
+        </section>
+        <section class="aplus-map-sec">
+            <div class="aplus-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d86180.75920551285!2d30.52543601298016!3d50.4225865536583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1486588377908"   frameborder="0" style="border:0" allowfullscreen></iframe>
+                
+            </div>
+            <div class="aplus-map-matter">
+                <h3>Остались вопросы?</h3>
+                <p>Задайте их нашему менеджеру</p>
+                <input  class="aplus-map-btn" type="button" title="Задать вопрос" value="зать вопрос">
+            </div>    
+        </section>
+        <footer class="aplus-footer">
+            <div class="aplus-footer-bl">
+                <img class="footer-logo"  src="img/A_Logo.png" alt="logo"> 
+                <ul id="footer-logo-ul">
+                    <li><img class="aplus-footer-sot" src="img\ivk.png" alt="vk"></li>
+                    <li><img class="aplus-footer-sot" src="img\if.png" alt="f"></li>
+                    <li><img class="aplus-footer-sot" src="img\ii.png" alt="i"></li>
+                </ul>    
+                 
+                <div class="aplus-phone-bl" id="aplus-phone-bl-f">
+                    <a>+38 073 376 65 23</a>
+                    <input type="button" title="Перезвоните мне" value="Перезвоните мне">
+                </div>
+            </div>   
+          
+        </footer>    
+      </div>   
+    </body>
+</html>
